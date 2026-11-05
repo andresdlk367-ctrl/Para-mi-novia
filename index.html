@@ -266,17 +266,17 @@ $('#nota-playlist').textContent = TEXTO_CARTA;
 
 /* reproductor: [archivo, título, artista] — los mp3 van en la carpeta audio */
 const CANCIONES = [
-  ["audio/el-libro-de-la-vida.mp3","El libro de la vida (te amo y más)",""],
-  ["audio/i-wanna-be-yours.mp3","I Wanna Be Yours",""],
-  ["audio/enamorado-tuyo.mp3","Enamorado tuyo","El Cuarteto de Nos"],
-  ["audio/sexto-sentido.mp3","Sexto sentido","008RACCA"],
-  ["audio/somethin-stupid.mp3","Somethin’ Stupid",""],
-  ["audio/cant-help-falling-in-love.mp3","Can’t Help Falling in Love","Elvis Presley"],
-  ["audio/amor-de-siempre.mp3","Amor de Siempre","Cuco"],
-  ["audio/locos.mp3","Locos","León Larregui"],
-  ["audio/contigo.mp3","Contigo",""],
-  ["audio/la-que-me-gusta.mp3","La que me gusta","Los Amigos Invisibles"],
-  ["audio/gone-gone-gone.mp3","Gone, Gone, Gone (Español)","Phillip Phillips · Peter y Gwen"]
+  ["el-libro-de-la-vida.mp3","El libro de la vida (te amo y más)",""],
+  ["i-wanna-be-yours.mp3","I Wanna Be Yours",""],
+  ["enamorado-tuyo.mp3","Enamorado tuyo","El Cuarteto de Nos"],
+  ["sexto-sentido.mp3","Sexto sentido","008RACCA"],
+  ["somethin-stupid.mp3","Somethin’ Stupid",""],
+  ["cant-help-falling-in-love.mp3","Can’t Help Falling in Love","Elvis Presley"],
+  ["amor-de-siempre.mp3","Amor de Siempre","Cuco"],
+  ["locos.mp3","Locos","León Larregui"],
+  ["contigo.mp3","Contigo",""],
+  ["la-que-me-gusta.mp3","La que me gusta","Los Amigos Invisibles"],
+  ["gone-gone-gone.mp3","Gone, Gone, Gone (Español)","Phillip Phillips · Peter y Gwen"]
 ];
 const aud = $('#aud'), seek = $('#seek'), playBtn = $('#play'); let cur = 0;
 const mmss = s => isFinite(s) ? Math.floor(s/60) + ':' + String(Math.floor(s%60)).padStart(2,'0') : '0:00';
